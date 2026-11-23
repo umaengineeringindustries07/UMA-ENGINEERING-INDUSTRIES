@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMA Engineering Industries | UMA Pumps & Motors | Coimbatore Since 1982</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        uma: {
+                            dark: '#0f172a',
+                            slate: '#1e293b',
+                            accent: '#0284c7', 
+                            highlight: '#f59e0b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-uma-dark border-b border-slate-800 text-xs py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-uma-accent mr-1"></i> 31, Kandhasamy Lay Out, P.N. Palayam, Coimbatore - 641037</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-clock text-uma-accent mr-1"></i> Mon - SAT: 9:00 AM – 9:00 PM</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+919843265516" class="hover:text-uma-accent transition"><i class="fa-solid fa-phone text-uma-accent mr-1"></i> +919843265516</a>
+                <span class="bg-uma-highlight/10 text-uma-highlight px-2 py-0.5 rounded border border-uma-highlight/20 font-semibold"><i class="fa-solid fa-award text-xs mr-1"></i> Est. 1982</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-uma-accent text-white font-black px-3 py-1.5 rounded text-xl tracking-wider">UEI</div>
+                <div>
+                    <span class="font-bold text-lg tracking-wide block leading-tight">UMA ENGINEERING INDUSTRIES</span>
+                    <span class="text-xs text-slate-400">UMA Pumps & UMA Motors</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-uma-accent transition">Home</a>
+                <a href="#gallery" class="hover:text-uma-accent transition text-uma-accent">Gallery</a>
+                <a href="#about" class="hover:text-uma-accent transition">About Us</a>
+                <a href="#products" class="hover:text-uma-accent transition">Products</a>
+                <a href="#contact" class="hover:text-uma-accent transition">Contact Us</a>
+            </nav>
+            <div>
+                <a href="https://wa.me/919843265516?text=Hello,%20I%20would%20like%20to%20inquire%20about%20your%20UMA%20Pumps%20and%20Motors." target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition shadow flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Quick Inquiry
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-slate-950 via-slate-900 to-slate-900 py-20 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-uma-accent/10 text-uma-accent text-xs font-semibold px-3 py-1 rounded-full border border-uma-accent/20">Legacy of Trust Since 1982 • Founded by Mr. C. Angappan Pillai</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-6 leading-tight">
+                    Manufacturers of <span class="text-uma-accent">UMA Pumps</span> & Electric Motors
+                </h1>
+                <p class="text-slate-300 text-base mb-8 leading-relaxed">
+                    Established manufacturing business based in Coimbatore, specializing in durable air compressors, high-performance electric motors, monoblock pumps, and submersible water systems.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#gallery" class="bg-uma-accent hover:bg-sky-600 text-white font-bold px-6 py-3 rounded-lg transition shadow-lg flex items-center gap-2">
+                        <i class="fa-solid fa-images"></i> View Gallery
+                    </a>
+                    <a href="https://wa.me/918778387012?text=Hello,%20I%20would%20like%20a%20catalog%20and%20quotes." target="_blank" class="border border-slate-700 hover:border-slate-500 bg-slate-800/50 px-6 py-3 rounded-lg transition font-medium flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-green-400"></i> Request Price Quote
+                    </a>
+                </div>
+            </div>
+            <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 shadow-2xl relative overflow-hidden group">
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90 z-10 pointer-events-none"></div>
+                <img src="uma8.jpeg" alt="UMA Openwell Submersible" class="w-full h-[350px] object-cover rounded-lg group-hover:scale-105 transition duration-700">
+                <div class="absolute bottom-6 left-6 z-20">
+                    <h3 class="text-xl font-bold text-white mb-2"><i class="fa-solid fa-industry text-uma-accent mr-2"></i> Core Brand Focus</h3>
+                    <ul class="space-y-1 text-sm text-slate-200">
+                        <li><i class="fa-solid fa-check text-green-400 mr-2"></i>UMA Borewell & Openwell Pumps</li>
+                        <li><i class="fa-solid fa-check text-green-400 mr-2"></i>Heavy-Duty Electric Motors</li>
+                        <li><i class="fa-solid fa-check text-green-400 mr-2"></i>Air Compressors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Featured Gallery Section (Images & Video) -->
+    <section id="gallery" class="py-16 px-4 bg-slate-950 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold mb-4 text-white">Media & Product Gallery</h2>
+                <p class="text-slate-400 text-sm">Take a closer look at our manufacturing excellence, facility, and comprehensive range of UMA products.</p>
+            </div>
+
+            <!-- Featured Video -->
+            <div class="mb-12 w-full max-w-4xl mx-auto bg-slate-900 p-2 rounded-2xl border border-slate-800 shadow-2xl">
+                <div class="relative w-full aspect-video bg-black rounded-xl overflow-hidden group">
+                    <video controls class="w-full h-full object-cover" poster="uma 10.jpeg">
+                        <source src="uma 1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="text-center text-slate-400 text-sm mt-4 font-medium"><i class="fa-solid fa-video mr-2"></i>UMA Engineering Industries - 3-Phase Motors & Compressors</p>
+            </div>
+
+            <!-- CSS Grid Image Gallery -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma11.jpeg" alt="UMA Inventory" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma 0.jpeg" alt="UMA Catalog Specs" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma.jpeg" alt="UMA Packaging Board" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900 lg:col-span-2">
+                    <img src="uma 10.jpeg" alt="UMA Compressor Unit" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900 lg:col-span-2">
+                    <img src="uma6.jpeg" alt="UMA Compressor Display" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma9.jpeg" alt="Submersible Pump" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma8.jpeg" alt="Openwell Submersible" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma7.jpeg" alt="Motors Rack 1" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+                    <img src="uma5.jpeg" alt="Motors Rack 2" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+                <div class="group overflow-hidden rounded-xl border border-slate-800 bg-slate-900 lg:col-span-4">
+                    <img src="uma4.jpeg" alt="Black Motors Warehouse" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500 opacity-90 group-hover:opacity-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-slate-900">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-white border-l-4 border-uma-accent pl-4">About UMA Engineering Industries</h2>
+                <p class="text-slate-300 mb-4 leading-relaxed">
+                    UMA Engineering Industries is an established manufacturing business based in Coimbatore, Tamil Nadu, with a rich history dating back to **1982 when it was founded by Mr. C. Angappan **.
+                </p>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    Operating under our trusted flagship brands **UMA Pumps** and **UMA Motors**, we engineer and supply robust industrial and agricultural pumping machinery built for long-term reliability.
+                </p>
+                <div class="grid grid-cols-2 gap-6 pt-4 border-t border-slate-800">
+                    <div>
+                        <span class="block text-3xl font-black text-uma-accent">Since 1982</span>
+                        <span class="text-xs text-slate-400">Manufacturing Legacy</span>
+                    </div>
+                    <div>
+                        <span class="block text-3xl font-black text-uma-accent">Coimbatore</span>
+                        <span class="text-xs text-slate-400">Industrial Hub Center</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-950 border border-slate-800 p-8 rounded-2xl shadow-xl relative overflow-hidden">
+                <div class="absolute -right-4 -top-4 opacity-5 text-9xl text-white pointer-events-none"><i class="fa-solid fa-gear"></i></div>
+                <h3 class="text-xl font-bold mb-4 text-white"><i class="fa-solid fa-building text-uma-accent mr-2"></i> Company Profile</h3>
+                <div class="space-y-4 text-sm relative z-10">
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Founder:</span>
+                        <span class="font-semibold">Mr. C. Angappan</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Established:</span>
+                        <span class="font-semibold">1982</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Core Brands:</span>
+                        <span class="font-semibold text-uma-accent">UMA Pumps & UMA Motors</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Location:</span>
+                        <span class="font-semibold text-right">Pappanaickenpalayam, Coimbatore</span>
+                    </div>
+                    <div class="flex justify-between pb-2">
+                        <span class="text-slate-400">Working Hours:</span>
+                        <span class="font-semibold">Mon - SAT (9 AM - 9 PM)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products & Services Section -->
+    <section id="products" class="py-20 px-4 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold mb-4">Our Manufactured Products</h2>
+                <p class="text-slate-400">Explore our robust lineup of air compressors, electric motors, and water pumps engineered under UMA Pumps and UMA Motors.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Product 1 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-uma-accent transition group">
+                    <div class="w-12 h-12 bg-uma-accent/10 rounded-lg flex items-center justify-center text-uma-accent mb-4 group-hover:bg-uma-accent group-hover:text-white transition">
+                        <i class="fa-solid fa-wind text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Air Compressors</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">High-performance air compressors including reciprocating and specialized borewell models.</p>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-uma-accent transition group">
+                    <div class="w-12 h-12 bg-uma-accent/10 rounded-lg flex items-center justify-center text-uma-accent mb-4 group-hover:bg-uma-accent group-hover:text-white transition">
+                        <i class="fa-solid fa-bolt text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Electric Motors</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">Durable industrial electric motors built under the UMA Motors brand for steady power.</p>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-uma-accent transition group">
+                    <div class="w-12 h-12 bg-uma-accent/10 rounded-lg flex items-center justify-center text-uma-accent mb-4 group-hover:bg-uma-accent group-hover:text-white transition">
+                        <i class="fa-solid fa-water text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Pumps & Submersibles</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed mb-4">Water pumps, monoblock pumps, and openwell/borewell submersible pumps under UMA Pumps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="py-20 px-4 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Contact Our Office</h2>
+                <p class="text-slate-400 mb-8 text-sm">Reach out to us directly for product inquiries, bulk orders, or technical requirements.</p>
+                
+                <div class="space-y-6 text-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-uma-accent/10 p-3 rounded-lg text-uma-accent"><i class="fa-solid fa-location-dot text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Address:</strong>
+                            <span class="text-slate-300 leading-relaxed">31, Kandhasamy Lay Out, P.N. Palayam, Coimbatore, Tamil Nadu 641037</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="bg-uma-accent/10 p-3 rounded-lg text-uma-accent"><i class="fa-solid fa-phone text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Phone:</strong>
+                            <a href="tel:+919843265516" class="text-uma-accent hover:underline">+919843265516</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="bg-uma-accent/10 p-3 rounded-lg text-uma-accent"><i class="fa-solid fa-clock text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Hours:</strong>
+                            <span class="text-slate-300">Monday – Sunday, 9:00 AM – 9:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <a href="https://wa.me/919843265516?text=Hello,%20I%20would%20like%20to%20place%20an%20inquiry." target="_blank" class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-bold transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp Instantly
+                    </a>
+                </div>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <div class="bg-slate-950 p-2 rounded-2xl border border-slate-800 shadow-xl overflow-hidden h-[400px]">
+                <iframe 
+                    class="w-full h-full rounded-xl filter contrast-125 grayscale"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2!2d76.97!3d11.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zUGFwZGFuYWlja2VucGFsYXlhbSwgQ29pbWJhdG9yZSwgVGFtaWwgTmFkdSA2NDEwMzc!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919843265516?text=Hello,%20I%20visited%20your%20website%20and%20need%20assistance." target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl transition hover:scale-110" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-uma-dark py-8 px-4 text-center border-t border-slate-800 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>&copy; 2026 UMA Engineering Industries, Coimbatore. Founded in 1982 by Mr. C. Angappan. All Rights Reserved.</p>
+            <p>Brands: UMA Pumps & UMA Motors</p>
+        </div>
+    </footer>
+
+</body>
+</html>
